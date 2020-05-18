@@ -26,6 +26,8 @@ export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+export PATH=$PATH:$HOME/font-tools/FontCommandLineTools.pkg
+export REACT_EDITOR=code
 
 source $ZSH/oh-my-zsh.sh
 
@@ -41,6 +43,7 @@ alias clear-derived-data="rm -rf ~/Library/Developer/Xcode/DerivedData"
 alias adb-reverse="adb reverse tcp:8081 tcp:8081 && adb reverse tcp:9090 tcp:9090"
 
 # Startup scripts
+adb reverse tcp:8081 tcp:8081
 clear && fortune | cowsay | lolcat && echo
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
