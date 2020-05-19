@@ -1,0 +1,25 @@
+{
+  "folders": [
+    {
+      "path": "thoughtspot/app",
+    },
+    {
+      "path": "thoughtspot/js"
+    }
+  ],
+  "settings": {
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "FiraCode-Retina",
+    "editor.tabSize": 2,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": false
+    },
+    "terminal.integrated.fontFamily": "FiraCode-Retina",
+    "eslint.source.fixAll": false,
+    "eslint.alwaysShowStatus": true,
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact"
+    ]
+  }
+}

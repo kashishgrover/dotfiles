@@ -1,0 +1,32 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.zoomLevel": -1,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#000000",
+        "terminal.background": "#0e0e0e",
+        "editor.background": "#0e0e0e",
+        "panel.background": "#0e0e0e",
+        "sideBar.background": "#0e0e0e",
+        "menu.background": "#0e0e0e",
+        "tab.inactiveBackground": "#131313",
+        "minimap.background": "#131313",
+        "activityBar.background": "#131313",
+        "scrollbarSlider.background": "#1a1a1a",
+        "editorGroupHeader.tabsBackground": "#131313"
+    },
+}
