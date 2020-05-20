@@ -22,11 +22,12 @@
         "editor.background": "#0e0e0e",
         "panel.background": "#0e0e0e",
         "sideBar.background": "#0e0e0e",
+        "sideBar.border": "#1a1a1a",
         "menu.background": "#0e0e0e",
         "tab.inactiveBackground": "#131313",
         "minimap.background": "#131313",
         "activityBar.background": "#131313",
         "scrollbarSlider.background": "#1a1a1a",
         "editorGroupHeader.tabsBackground": "#131313"
-    },
+      },
 }
