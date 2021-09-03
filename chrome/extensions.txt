@@ -1,0 +1,32 @@
+Slides : version 0_10
+Talend API Tester - Free Edition : version 25_8_1
+Web Store : version 0_2
+Docs : version 0_10
+Google Drive : version 14_5
+Earth View from Google Earth : version 3_0_5
+YouTube : version 4_2_8
+Scio Search : version 0_9_54
+uBlock Origin : version 1_37_2
+RememBear : version 1_2_10
+Hiring Club : version 2_13_1
+Sheets : version 1_2
+React Developer Tools : version 4_17_0
+Feedback : version 1_0
+Google Docs Offline : version 1_31_0
+Vysor : version 2_3_2
+Okta Browser Plugin : version 6_3_0
+Testing Playground : version 1_16_0
+Zoom : version 5_0_4291_823
+Zoom Scheduler : version 1_6_7
+CryptoTokenExtension : version 0_9_74
+Notion Web Clipper : version 0_2_4
+Allow CORS: Access-Control-Allow-Origin : version 0_1_6
+Loom for Chrome : version 5_1_5
+Chrome PDF Viewer : version 1
+Google Images Restored : version 0_4_0
+Google Network Speech : version 1_0
+Beanote - Note Taking on Web Pages : version 1_5_4
+Google Hangouts : version 1_3_16
+Chrome Web Store Payments : version 1_0_0_6
+Gmail : version 8_3
+Chrome Media Router : version 9221_427_0_1
