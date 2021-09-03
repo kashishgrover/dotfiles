@@ -1,12 +1,5 @@
 {
-  "folders": [
-    {
-      "path": "thoughtspot/app",
-    },
-    {
-      "path": "thoughtspot/js"
-    }
-  ],
+  "folders": [],
   "settings": {
     "editor.fontLigatures": true,
     "editor.fontFamily": "FiraCode-Retina",
@@ -15,11 +8,15 @@
       "source.fixAll.eslint": false
     },
     "terminal.integrated.fontFamily": "FiraCode-Retina",
-    "eslint.source.fixAll": false,
     "eslint.alwaysShowStatus": true,
+    "workbench.colorCustomizations": {
+      "statusBar.background": "#1b1b1b",
+    },
     "eslint.validate": [
       "javascript",
       "javascriptreact"
-    ]
-  }
+    ],
+    "eslint.format.enable": true,
+    "emmet.showExpandedAbbreviation": "never",
+  },
 }

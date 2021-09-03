@@ -1,33 +1,62 @@
 {
-    "workbench.startupEditor": "newUntitledFile",
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "window.zoomLevel": -1,
-    "workbench.colorCustomizations": {
-        "statusBar.background": "#000000",
-        "terminal.background": "#0e0e0e",
-        "editor.background": "#0e0e0e",
-        "panel.background": "#0e0e0e",
-        "sideBar.background": "#0e0e0e",
-        "sideBar.border": "#1a1a1a",
-        "menu.background": "#0e0e0e",
-        "tab.inactiveBackground": "#131313",
-        "minimap.background": "#131313",
-        "activityBar.background": "#131313",
-        "scrollbarSlider.background": "#1a1a1a",
-        "editorGroupHeader.tabsBackground": "#131313"
-      },
+  "workbench.startupEditor": "newUntitledFile",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDelete": false,
+  "editor.minimap.enabled": false,
+  "extensions.ignoreRecommendations": true,
+  "emmet.excludeLanguages": ["[typescript]", "markdown"],
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.confirmSync": false,
+  "explorer.confirmDragAndDrop": false,
+  "tabnine.experimentalAutoImports": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "terminal.integrated.tabs.enabled": true,
+  "workbench.colorTheme": "OneDark Dark+",
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.fontFamily": "FiraCode-Retina",
+  "editor.fontFamily": "FiraCode-Retina",
+  "editor.inlayHints.fontFamily": "default",
+  "editor.inlineSuggest.enabled": true,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "gitlens.statusBar.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.hovers.avatars": false,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false
+  },
+  "workspaceInStatusBar.alignment": "right",
+  "workspaceInStatusBar.priority": -1,
+  "workspaceInStatusBar.uppercase": true,
+  "workspaceInStatusBar.displayFolderIcon": false,
+  "workspaceInStatusBar.removeWorkspacePostfix": true
 }
