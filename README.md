@@ -12,10 +12,9 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
 
-### Install Powerline fonts
+### Install [FiraCode Retina Font](https://github.com/tonsky/FiraCode)
 
 ```
-git clone https://github.com/powerline/fonts.git --depth=1
-cd fonts
-./install.sh
+brew tap homebrew/cask-fonts
+brew install --cask font-fira-code
 ```
