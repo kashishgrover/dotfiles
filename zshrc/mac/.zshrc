@@ -46,6 +46,8 @@ alias fsearch="fzf --preview 'bat --style=numbers --color=always --line-range :5
 alias serveit="python -m http.server 8000"
 alias yt-dlp="~/Downloads/yt-dlp_macos -f 'bestvideo[height<=480][ext=mp4]+bestaudio[ext=m4a]' --merge-output-format mp4"
 alias gprod="git pull origin develop --rebase"
+# omz update skips cloned themes/plugins in $ZSH_CUSTOM; this updates both
+alias omz-up='omz update && for d in $ZSH_CUSTOM/{themes,plugins}/*/.git(N:h); do git -C $d pull -q --ff-only && echo "updated ${d:t}"; done'
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
